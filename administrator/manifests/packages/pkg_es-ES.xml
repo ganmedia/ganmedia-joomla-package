@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="3.0">
+	<name>Spanish Language Pack</name>
+	<packagename>es-ES</packagename>
+	<version>3.0.3.3</version>
+	<creationDate>22/01/2013</creationDate>
+	<author>Equipo Joomla! Spanish : joomlaspanish.org</author>
+	<authorEmail>joomlaspanish@joomlaspanish.org</authorEmail>
+	<authorUrl>www.joomlaspanish.org</authorUrl>
+	<copyright>(C) 2005-2013 Joomla! Spanish. Todos los derechos reservados</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<url></url>
+	<packager>Joomla! Spanish</packager>
+	<packagerurl>www.joomlaspanish.org</packagerurl>
+	<description>
+		<![CDATA[ 
+		<a href="http://www.joomlaspanish.org/" target="_blank"><img src="http://joomlaspanish.org/images/logo.png" width="360" height="62" alt="Versiones Joomlaspanish.org" /></a><br/>
+		<h3>Paquete de ldioma completo en español (Formal Internacional) para Joomla! es-ES version 3.0.3v3</h3>
+		<h3>Joomla! 3.0.3 Full Spanish (es-ES) Language Package version 3.0.3v3</h3>
+		<br>
+		<h3>Adicionalmente la instalación del paquete de idioma ES TinyMCE 3.5.6 para Joomla 3.0 se ha completado con éxito</h3>
+        <div style="font-weight:normal">
+ 		No se olvide de seleccionar el idioma ES en el
+ 		<a href="index.php?option=com_plugins&view=plugins&filter_search=TinyMCE"><strong>gestor del Plugin TinyMCE</strong></a><br />
+ 		Si utiliza la detección automática, asegúrese de que estén instalados los paquetes de los distintos idiomas para TinyMCE correspondiente con los instalados en el propio Joomla!</div>
+		]]>
+	</description>
+	<files>
+		<file type="language" client="site" id="es-ES">site_es-ES.zip</file>
+		<file type="language" client="administrator" id="es-ES">admin_es-ES.zip</file>
+		<file type="file" client="site" id="TinyMCE_es-ES">es-ES_TinyMCE_3.5.6.zip</file>
+	</files>
+    <updateservers>
+        <server type="collection" priority="1" name="Traducción Joomla! Spanish series 3.0.x">http://joomlaspanish.org/actualizar/idioma/translationlist_3.xml</server>
+    </updateservers>
+</extension>
